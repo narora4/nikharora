@@ -13,3 +13,4 @@ subplot(2,1,1);
 w = icdf(pd,x);
 plot(x,w,"Linewidth" , 4);
 maxw = max(w);
+%%
