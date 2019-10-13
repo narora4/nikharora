@@ -18,6 +18,7 @@ sigma = sqrt(2/pi)* p;
 variance = (sigma^2)*((4-pi)/2);
 probab1 = 1 - exp(-(p^2)/(2*sigma^2));
 
+%%delete this line later, but shouldnt you be doing binomial 
 %Non-continous
 sample = 0:1:20 ;
 pdrn = makedist('Poisson' , 'lambda' , 4);
